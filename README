@@ -1,0 +1,19 @@
+This is a simple L-System engine written in processing (http://www.processing.org) language.
+It already contains two sample grammars (taken from examples 1 and 3 at http://en.wikipedia.org/wiki/L-system) along with the
+grammar parser itself.
+
+To run one of the samples please uncomment it.
+
+To create new L-Systems follow these rules: ( only D0L-systems works right by now )
+    use 'start' string to define the axiom;
+    use 'rules' string to define the rules, comma separated and with '->' as arrow symbol;
+    use 'l_sys_env' HashMap as you personal environment variables store (eg: to define you personal variables);
+    use 'start_x' and 'start_y' as initial coordinate pointers ( you can also modify them ).
+    
+Then you need to define 3 functions:
+    void l_sys_setup() : called once, during the setup phase;
+    void l_sys_round(String cur) : called at each iteration with the current string as param;
+    void l_sys(char c) : called at each substitution within each iteration.
+    
+    
+
