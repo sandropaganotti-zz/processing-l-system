@@ -1,5 +1,5 @@
 This is a simple L-System engine written in processing (http://www.processing.org) language.
-It already contains two sample grammars (taken from examples 1 and 3 at http://en.wikipedia.org/wiki/L-system) along with the
+It already contains two sample grammars (taken from examples 1 and 3 at http://en.wikipedia.org/wiki/L-system ) along with the
 grammar parser itself.
 
 To run one of the samples please uncomment it.
